@@ -7,7 +7,7 @@ copy/pasted editcontrols and charactercontrols into the repo bc had some problem
 
 to start:\
 yarn\
-yarn start\
+yarn start
 
 
 
