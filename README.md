@@ -1,13 +1,13 @@
 # Vishva
 
-my changes:
-updated build to be more conventional
-integrated a working example (the kenny town example)
-copy/pasted editcontrols and charactercontrols into the repo bc had some problems with npm versions
+my changes:\
+updated build to be more conventional\
+integrated a working example (the kenny town example)\
+copy/pasted editcontrols and charactercontrols into the repo bc had some problems with npm versions\
 
-to start:
-yarn
-yarn start
+to start:\
+yarn\
+yarn start\
 
 
 
