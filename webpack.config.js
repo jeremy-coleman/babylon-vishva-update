@@ -1,7 +1,7 @@
 var path = require("path")
 const TerserPlugin = require("terser-webpack-plugin")
 var webpack = require("webpack")
-const CopyPlugin = require("copy-webpack-plugin")
+//const CopyPlugin = require("copy-webpack-plugin")
 const { TsconfigPathsPlugin } = require("tsconfig-paths-webpack-plugin")
 
 module.exports = {
@@ -18,7 +18,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.[tj]sx?$/,
         use: [{ loader: "ts-loader", options: { transpileOnly: true } }],
         exclude: /node_modules/
       },
